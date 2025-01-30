@@ -1,37 +1,51 @@
-body{
-    margin: 20px;
-    font-family:algerian ;
+body {
+  box-sizing: border-box;
+  margin: 20px;
+  background: #071c3c;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.main{
-    background: rgb(255, 215, 156);
-    display: flex;
-    padding: 24px;
-    justify-content: space-around;
-    border-radius: 9px;
-    width: 500px;
-    margin: 0 auto;
-    text-align: center;
-    border-bottom: 5px solid rgb(255, 61, 255);
-    font-size: 16px;
-    text-shadow: 2px 2px 4px #121212;
+.main {
+  background: #01234d;
+  color: #fff !important;
+  padding: 24px;
+  border-radius: 9px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 5px solid rgb(255, 61, 255);
+  font-size: 16px;
 }
-.info-text{
-    padding-top: 30px;
+.info-text {
+  padding-top: 30px;
 }
-.info-text:hover{
-    scale: 1.1;
-    transition-duration: 2s;
-    color: rgb(4, 11, 116);
-    text-shadow: 0px 0px 8px #ff0000;
-    
+p {
+  line-height: 30px !important;
+  font-size: 1.1rem;
 }
-.avatar{
-    width: 200px;
-    border-radius: 5px;
-
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.15rem;
 }
-.avatar:hover{
-    scale: 1.1;
-    rotate: 360deg;
-    transition-duration: 2s;
+a svg path {
+  fill: #fff;
+}
+a svg path:hover {
+  fill: rgb(255, 61, 255);
+}
+a:hover {
+  color: rgb(255, 61, 255);
+  text-decoration: underline;
+}
+h3 {
+  color: rgb(203, 203, 203);
+}
+.avatar {
+  width: 200px;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 61, 255);
+}
+#time {
+  font-size: 1.1rem;
 }
